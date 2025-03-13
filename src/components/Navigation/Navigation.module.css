@@ -1,0 +1,15 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px ;
+  }
+  
+  nav ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+  }
