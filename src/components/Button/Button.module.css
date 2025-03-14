@@ -1,0 +1,15 @@
+
+
+.primary_btn{
+    padding: 18px 10px;
+    background-color: #000;
+    color: #fff;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}

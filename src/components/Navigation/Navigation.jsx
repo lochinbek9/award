@@ -1,19 +1,26 @@
 
+import "./Navigation.module.css"
 
 function Navigation() {
   return (
    <header>
     <div className="container">
-    <nav >
+    <nav>
         <div>
             <a href="./index.html">
                 <img src="./img/logo.svg" alt="" />
             </a>
         </div>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
         </ul>
     </nav>
     </div>
