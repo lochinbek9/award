@@ -5,3 +5,53 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* background-color: #ff0000; */
+}
+
+.contact_form input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    gap: 8px;
+    position: relative;
+}
+
+.form_control input{
+    width: 100%;
+    height: 40px;
+    padding: 15px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form_control textarea{
+    padding-top: 20px;
+    outline: none;
+}
+
+.form_control label{
+    position: absolute;
+   top: -12px;
+   left: 10px;
+   background-color: #fff;
+   padding: 0 10px;
+   font-size: 14px;
+}
